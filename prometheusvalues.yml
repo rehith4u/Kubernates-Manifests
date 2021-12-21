@@ -7,11 +7,11 @@ alertmanagerFiles:
     receivers:
       - name: 'gmail-notifications'
         email_configs:
-        - to: devopstrainingblr@gmail.com
-          from: devopstrainingbanglore@gmail.com # Update your from mail id here
+        - to: rehith4i@gmail.com
+          from: rehith4i@gmail.com # Update your from mail id here
           smarthost: smtp.gmail.com:587
-          auth_username: devopstrainingbanglore@gmail.com # Update your from mail id here
-          auth_identity: devopstrainingbanglore@gmail.com # Update your from mail id here
+          auth_username: rehith4i@gmail.com # Update your from mail id here
+          auth_identity: rehith4i@gmail.com # Update your from mail id here
           auth_password: XXXX # Update your password here
           send_resolved: true
           headers:
